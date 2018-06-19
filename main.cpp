@@ -2,6 +2,7 @@
 #include "class/mapatrem.h"
 #include "class/threads/thread.h"
 #include <vector>
+#include <unistd.h>
 
 using namespace std;
 
@@ -97,14 +98,59 @@ int main(int argc, char **argv) {
 
         switch (colunaDaVez) {
             case 0:
+                trens.Trem1Txt("Zero");
+                break;
             case 1:
+                trens.Trem1Txt("Um");
+                break;
             case 2:
+                trens.Trem1Txt("Dois");
+                break;
             case 3:
+                trens.Trem1Txt("Tres");
+                break;
             case 4:
+                trens.Trem1Txt("Quatro");
+                break;
             case 5:
+                trens.Trem1Txt("Cinco");
+                break;
             case 6:
+                trens.Trem1Txt("Seis");
+                break;
             case 7:
+                trens.Trem1Txt("Sete");
+                break;
+            case 8:
+                trens.Trem1Txt("Oito");
+                break;
+            case 9:
+                trens.Trem1Txt("Nove");
+                break;
+            case 10:
+                trens.Trem1Txt("Dez");
+                break;
+            case 11:
+                trens.Trem1Txt("Onze");
+                break;
+            case 12:
+                trens.Trem1Txt("Doze");
+                break;
+            case 13:
+                trens.Trem1Txt("Treze");
+                break;
+            case 14:
+                trens.Trem1Txt("Quatorze");
+                break;
+            case 15:
+                trens.Trem1Txt("Quinze");
+                break;
+            case 16:
+                trens.Trem1Txt("Dezesseis");
+                break;
         }
+
+        sleep(1);
 
         for(int i=0; i<17; i++){
             redePetri[i] += posTrans[i][colunaDaVez];
@@ -117,6 +163,7 @@ int main(int argc, char **argv) {
     trens.Gate(1);
     for(Point p : pt1)
     {
+        trens.Trem2Txt("lul");
         trens.Trem1Pos(p.x,p.y);  //como pegar posição +-
         Thread::SleepMS(3000);    //tempo SLEEP NORMAL
 
