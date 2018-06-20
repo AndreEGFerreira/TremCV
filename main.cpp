@@ -6,6 +6,8 @@
 
 using namespace std;
 
+
+/* CARA, TEM QUE FAZER MUITA TRANSICAO E ESTADOS, ATUALMENTE ESTÁ MUUUUITO INCOMPLETO, QUASE NÃO DA PARA FAZER ASSIM */
 int posTrans[17][16] = {0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,
                         0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,
                         0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,
@@ -98,55 +100,55 @@ int main(int argc, char **argv) {
 
         switch (colunaDaVez) {
             case 0:
-                trens.Trem1Txt("Zero");
+                trens.Trem1Txt("A1 Ativo");
+                trens.Trem1Pos(67,158);
                 break;
             case 1:
-                trens.Trem1Txt("Um");
+                trens.Trem2Txt("A2 Ativo");
                 break;
             case 2:
-                trens.Trem1Txt("Dois");
+                trens.Trem1Txt("B1 Volta");
                 break;
             case 3:
-                trens.Trem1Txt("Tres");
+                trens.Trem2Txt("B2 Volta");
                 break;
             case 4:
-                trens.Trem1Txt("Quatro");
+                trens.Trem1Txt("Estacionamento T1");
                 break;
             case 5:
-                trens.Trem1Txt("Cinco");
+                trens.Trem2Txt("Estacionamento T2");
                 break;
             case 6:
-                trens.Trem1Txt("Seis");
+                trens.Trem1Txt("Freiar T1");
                 break;
             case 7:
-                trens.Trem1Txt("Sete");
-                break;
-            case 8:
-                trens.Trem1Txt("Oito");
-                break;
-            case 9:
-                trens.Trem1Txt("Nove");
+                trens.Trem2Txt("Freiar T2");
                 break;
             case 10:
-                trens.Trem1Txt("Dez");
+                trens.Trem1Txt("G = 0");
+                trens.Gate(1);
                 break;
             case 11:
-                trens.Trem1Txt("Onze");
+                trens.Trem2Txt("G = 1");
+                trens.Gate(0);
                 break;
             case 12:
-                trens.Trem1Txt("Doze");
+                trens.Trem1Txt("M1");
                 break;
             case 13:
-                trens.Trem1Txt("Treze");
+                trens.Trem2Txt("M2");
                 break;
             case 14:
-                trens.Trem1Txt("Quatorze");
+                trens.Trem1Txt("Partida Engelberg T1");
                 break;
             case 15:
-                trens.Trem1Txt("Quinze");
+                trens.Trem2Txt("Partida Engelberg T2");
                 break;
-            case 16:
-                trens.Trem1Txt("Dezesseis");
+            case 8:
+                trens.Trem1Txt("Freiar T1");
+                break;
+            case 9:
+                trens.Trem2Txt("Freiar T2");
                 break;
         }
 
