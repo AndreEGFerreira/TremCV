@@ -130,6 +130,9 @@ int main(int argc, char **argv) {
                 trens.Trem1Pos(180, 158);
                 break;
             case 5:
+                trens.Trem1Txt("Sarnen");
+                trens.Trem1Pos(304, 242);
+                sleep(1);
                 trens.Trem1Txt("B1 Ativo");
                 trens.Trem1Pos(180, 158);
                 break;
@@ -138,6 +141,9 @@ int main(int argc, char **argv) {
                 trens.Trem2Pos(180, 326);
                 break;
             case 7:
+                trens.Trem2Txt("Sarnen");
+                trens.Trem2Pos(304, 242);
+                sleep(1);
                 trens.Trem2Txt("B2 Ativo");
                 trens.Trem2Pos(180, 326);
                 break;
@@ -166,16 +172,16 @@ int main(int argc, char **argv) {
                 trens.Trem2Pos(235, 288);
                 break;
             case 14:
-                trens.Trem1Txt("G = 0");
-                trens.Gate(1);
-                sleep(1);
-                trens.Trem1Pos(304, 242);
+                trens.Trem2Txt("G = 0");
+                trens.Gate(0);
+                sleep(0.5);
+                trens.Trem2Pos(304, 242);
                 break;
             case 15:
-                trens.Trem2Txt("G = 1");
-                trens.Gate(0);
-                sleep(1);
-                trens.Trem2Pos(304, 242);
+                trens.Trem1Txt("G = 1");
+                trens.Gate(1);
+                sleep(0.5);
+                trens.Trem1Pos(304, 242);
                 break;
             case 16:
                 trens.Trem1Txt("M1");
@@ -183,7 +189,7 @@ int main(int argc, char **argv) {
                 break;
             case 17:
                 trens.Trem2Txt("M2");
-                trens.Trem1Pos(25, 326);
+                trens.Trem2Pos(25, 326);
                 break;
             case 18:
                 trens.Trem1Txt("Partida Engelberg T1");
