@@ -1,0 +1,1662 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><pnml>
+    <net id="Net-One" type="P/T net">
+        <token id="Default" enabled="true" red="0" green="0" blue="0"/>
+        <place id="b1">
+            <graphics>
+                <position x="420.0" y="225.0"/>
+            </graphics>
+            <name>
+                <value>b1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="b2">
+            <graphics>
+                <position x="420.0" y="315.0"/>
+            </graphics>
+            <name>
+                <value>b2</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="c1">
+            <graphics>
+                <position x="705.0" y="195.0"/>
+            </graphics>
+            <name>
+                <value>c1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="c1 volta">
+            <graphics>
+                <position x="720.0" y="30.0"/>
+            </graphics>
+            <name>
+                <value>c1 volta</value>
+                <graphics>
+                    <offset x="28.0" y="45.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="c2">
+            <graphics>
+                <position x="705.0" y="345.0"/>
+            </graphics>
+            <name>
+                <value>c2</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="c2 volta">
+            <graphics>
+                <position x="735.0" y="525.0"/>
+            </graphics>
+            <name>
+                <value>c2 volta</value>
+                <graphics>
+                    <offset x="37.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Comecar_andar">
+            <graphics>
+                <position x="180.0" y="315.0"/>
+            </graphics>
+            <name>
+                <value>Comecar_andar</value>
+                <graphics>
+                    <offset x="50.0" y="46.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Comecar andar 2">
+            <graphics>
+                <position x="180.0" y="225.0"/>
+            </graphics>
+            <name>
+                <value>Comecar andar 2</value>
+                <graphics>
+                    <offset x="38.0" y="-9.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Engelberg T1">
+            <graphics>
+                <position x="870.0" y="75.0"/>
+            </graphics>
+            <name>
+                <value>Engelberg T1</value>
+                <graphics>
+                    <offset x="84.0" y="48.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Engelberg T2">
+            <graphics>
+                <position x="885.0" y="465.0"/>
+            </graphics>
+            <name>
+                <value>Engelberg T2</value>
+                <graphics>
+                    <offset x="91.0" y="46.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Freiar_T1">
+            <graphics>
+                <position x="300.0" y="75.0"/>
+            </graphics>
+            <name>
+                <value>Freiar_T1</value>
+                <graphics>
+                    <offset x="37.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Freiar_T2">
+            <graphics>
+                <position x="285.0" y="465.0"/>
+            </graphics>
+            <name>
+                <value>Freiar_T2</value>
+                <graphics>
+                    <offset x="34.0" y="-3.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Indo Lucerne">
+            <graphics>
+                <position x="480.0" y="75.0"/>
+            </graphics>
+            <name>
+                <value>Indo Lucerne</value>
+                <graphics>
+                    <offset x="51.0" y="-3.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Indo Sarnen">
+            <graphics>
+                <position x="480.0" y="465.0"/>
+            </graphics>
+            <name>
+                <value>Indo Sarnen</value>
+                <graphics>
+                    <offset x="47.0" y="-6.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Lucerne">
+            <graphics>
+                <position x="45.0" y="165.0"/>
+            </graphics>
+            <name>
+                <value>Lucerne</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P18">
+            <graphics>
+                <position x="315.0" y="315.0"/>
+            </graphics>
+            <name>
+                <value>P18</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P20">
+            <graphics>
+                <position x="315.0" y="225.0"/>
+            </graphics>
+            <name>
+                <value>P20</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Sarnen">
+            <graphics>
+                <position x="45.0" y="375.0"/>
+            </graphics>
+            <name>
+                <value>Sarnen</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Sincronismo">
+            <graphics>
+                <position x="495.0" y="270.0"/>
+            </graphics>
+            <name>
+                <value>Sincronismo</value>
+                <graphics>
+                    <offset x="109.0" y="18.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Voltando T1">
+            <graphics>
+                <position x="645.0" y="75.0"/>
+            </graphics>
+            <name>
+                <value>Voltando T1</value>
+                <graphics>
+                    <offset x="62.0" y="48.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Voltando T2">
+            <graphics>
+                <position x="645.0" y="465.0"/>
+            </graphics>
+            <name>
+                <value>Voltando T2</value>
+                <graphics>
+                    <offset x="66.0" y="2.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Zona G=0">
+            <graphics>
+                <position x="525.0" y="375.0"/>
+            </graphics>
+            <name>
+                <value>Zona G=0</value>
+                <graphics>
+                    <offset x="36.0" y="47.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Zona G=1">
+            <graphics>
+                <position x="525.0" y="165.0"/>
+            </graphics>
+            <name>
+                <value>Zona G=1</value>
+                <graphics>
+                    <offset x="39.0" y="-1.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <transition id="a1_ativo">
+            <graphics>
+                <position x="255.0" y="225.0"/>
+            </graphics>
+            <name>
+                <value>a1_ativo</value>
+                <graphics>
+                    <offset x="8.0" y="47.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="a1 ativo">
+            <graphics>
+                <position x="390.0" y="75.0"/>
+            </graphics>
+            <name>
+                <value>a1 ativo</value>
+                <graphics>
+                    <offset x="43.0" y="43.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="a2_ativo">
+            <graphics>
+                <position x="255.0" y="315.0"/>
+            </graphics>
+            <name>
+                <value>a2_ativo</value>
+                <graphics>
+                    <offset x="36.0" y="-4.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="a2 ativo">
+            <graphics>
+                <position x="375.0" y="465.0"/>
+            </graphics>
+            <name>
+                <value>a2 ativo</value>
+                <graphics>
+                    <offset x="33.0" y="52.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="b1 ativo">
+            <graphics>
+                <position x="360.0" y="225.0"/>
+            </graphics>
+            <name>
+                <value>b1 ativo</value>
+                <graphics>
+                    <offset x="24.0" y="51.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="b1 volta">
+            <graphics>
+                <position x="600.0" y="75.0"/>
+            </graphics>
+            <name>
+                <value>b1 volta</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="b2 ativo">
+            <graphics>
+                <position x="360.0" y="315.0"/>
+            </graphics>
+            <name>
+                <value>b2 ativo</value>
+                <graphics>
+                    <offset x="56.0" y="44.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="b2 volta">
+            <graphics>
+                <position x="600.0" y="465.0"/>
+            </graphics>
+            <name>
+                <value>b2 volta</value>
+                <graphics>
+                    <offset x="26.0" y="49.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="c1_ATIVO">
+            <graphics>
+                <position x="675.0" y="30.0"/>
+            </graphics>
+            <name>
+                <value>c1_ATIVO</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="c1 ativo">
+            <graphics>
+                <position x="780.0" y="135.0"/>
+            </graphics>
+            <name>
+                <value>c1 ativo</value>
+                <graphics>
+                    <offset x="51.0" y="42.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>135</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="c2_ATIVO">
+            <graphics>
+                <position x="690.0" y="525.0"/>
+            </graphics>
+            <name>
+                <value>c2_ATIVO</value>
+                <graphics>
+                    <offset x="48.0" y="42.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="c2 ativo">
+            <graphics>
+                <position x="780.0" y="390.0"/>
+            </graphics>
+            <name>
+                <value>c2 ativo</value>
+                <graphics>
+                    <offset x="21.0" y="40.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>45</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Estacionamento T1">
+            <graphics>
+                <position x="195.0" y="90.0"/>
+            </graphics>
+            <name>
+                <value>Estacionamento T1</value>
+                <graphics>
+                    <offset x="32.0" y="2.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Estacionamento T2">
+            <graphics>
+                <position x="180.0" y="450.0"/>
+            </graphics>
+            <name>
+                <value>Estacionamento T2</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Freiar T1">
+            <graphics>
+                <position x="480.0" y="195.0"/>
+            </graphics>
+            <name>
+                <value>Freiar T1</value>
+                <graphics>
+                    <offset x="34.0" y="-3.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Freiar T2">
+            <graphics>
+                <position x="480.0" y="345.0"/>
+            </graphics>
+            <name>
+                <value>Freiar T2</value>
+                <graphics>
+                    <offset x="31.0" y="-4.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="G=0">
+            <graphics>
+                <position x="600.0" y="345.0"/>
+            </graphics>
+            <name>
+                <value>G=0</value>
+                <graphics>
+                    <offset x="30.0" y="44.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="G=1">
+            <graphics>
+                <position x="600.0" y="195.0"/>
+            </graphics>
+            <name>
+                <value>G=1</value>
+                <graphics>
+                    <offset x="27.0" y="51.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="m1">
+            <graphics>
+                <position x="105.0" y="225.0"/>
+            </graphics>
+            <name>
+                <value>m1</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="m2">
+            <graphics>
+                <position x="105.0" y="315.0"/>
+            </graphics>
+            <name>
+                <value>m2</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Partida_Engelberg_T1">
+            <graphics>
+                <position x="765.0" y="75.0"/>
+            </graphics>
+            <name>
+                <value>Partida_Engelberg_T1</value>
+                <graphics>
+                    <offset x="132.0" y="-9.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Partida_Engelberg_T2">
+            <graphics>
+                <position x="780.0" y="465.0"/>
+            </graphics>
+            <name>
+                <value>Partida_Engelberg_T2</value>
+                <graphics>
+                    <offset x="70.0" y="38.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <arc id="a1_ativo to P20" source="a1_ativo" target="P20">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="271" y="237" curvePoint="false"/>
+            <arcpath id="001" x="312" y="237" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a1 ativo to Freiar_T1" source="a1 ativo" target="Freiar_T1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="396" y="87" curvePoint="false"/>
+            <arcpath id="001" x="326" y="87" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a2_ativo to P18" source="a2_ativo" target="P18">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="271" y="327" curvePoint="false"/>
+            <arcpath id="001" x="312" y="327" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a2 ativo to Freiar_T2" source="a2 ativo" target="Freiar_T2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="381" y="477" curvePoint="false"/>
+            <arcpath id="001" x="311" y="477" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="b1 ativo to b1" source="b1 ativo" target="b1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="376" y="237" curvePoint="false"/>
+            <arcpath id="001" x="417" y="237" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="b1 to Freiar T1" source="b1" target="Freiar T1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="445" y="229" curvePoint="false"/>
+            <arcpath id="001" x="486" y="207" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="b1 volta to Indo Lucerne" source="b1 volta" target="Indo Lucerne">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="606" y="87" curvePoint="false"/>
+            <arcpath id="001" x="506" y="87" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="b1 volta to Sincronismo" source="b1 volta" target="Sincronismo">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="612" y="102" curvePoint="false"/>
+            <arcpath id="001" x="514" y="269" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="b2 ativo to b2" source="b2 ativo" target="b2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="376" y="327" curvePoint="false"/>
+            <arcpath id="001" x="417" y="327" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="b2 to Freiar T2" source="b2" target="Freiar T2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="445" y="334" curvePoint="false"/>
+            <arcpath id="001" x="486" y="357" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="b2 volta to Indo Sarnen" source="b2 volta" target="Indo Sarnen">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="606" y="477" curvePoint="false"/>
+            <arcpath id="001" x="506" y="477" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="b2 volta to Sincronismo" source="b2 volta" target="Sincronismo">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="612" y="462" curvePoint="false"/>
+            <arcpath id="001" x="514" y="294" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="c1_ATIVO to Voltando T1" source="c1_ATIVO" target="Voltando T1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="681" y="42" curvePoint="false"/>
+            <arcpath id="001" x="664" y="73" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="c1 ativo to Engelberg T1" source="c1 ativo" target="Engelberg T1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="795" y="142" curvePoint="false"/>
+            <arcpath id="001" x="869" y="95" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="c1 to c1 ativo" source="c1" target="c1 ativo">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="728" y="197" curvePoint="false"/>
+            <arcpath id="001" x="788" y="150" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="c1 volta to c1_ATIVO" source="c1 volta" target="c1_ATIVO">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="717" y="42" curvePoint="false"/>
+            <arcpath id="001" x="691" y="42" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="c2_ATIVO to Voltando T2" source="c2_ATIVO" target="Voltando T2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="696" y="537" curvePoint="false"/>
+            <arcpath id="001" x="665" y="489" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="c2 ativo to Engelberg T2" source="c2 ativo" target="Engelberg T2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="795" y="405" curvePoint="false"/>
+            <arcpath id="001" x="884" y="468" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="c2 to c2 ativo" source="c2" target="c2 ativo">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="729" y="364" curvePoint="false"/>
+            <arcpath id="001" x="787" y="398" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="c2 volta to c2_ATIVO" source="c2 volta" target="c2_ATIVO">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="732" y="537" curvePoint="false"/>
+            <arcpath id="001" x="706" y="537" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Comecar_andar to a2_ativo" source="Comecar_andar" target="a2_ativo">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="206" y="327" curvePoint="false"/>
+            <arcpath id="001" x="261" y="327" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Comecar andar 2 to a1_ativo" source="Comecar andar 2" target="a1_ativo">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="206" y="237" curvePoint="false"/>
+            <arcpath id="001" x="261" y="237" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Engelberg T1 to Partida_Engelberg_T1" source="Engelberg T1" target="Partida_Engelberg_T1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="867" y="87" curvePoint="false"/>
+            <arcpath id="001" x="781" y="87" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Engelberg T2 to Partida_Engelberg_T2" source="Engelberg T2" target="Partida_Engelberg_T2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="882" y="477" curvePoint="false"/>
+            <arcpath id="001" x="796" y="477" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Estacionamento T1 to Lucerne" source="Estacionamento T1" target="Lucerne">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="201" y="102" curvePoint="false"/>
+            <arcpath id="001" x="70" y="170" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Estacionamento T2 to Sarnen" source="Estacionamento T2" target="Sarnen">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="186" y="462" curvePoint="false"/>
+            <arcpath id="001" x="69" y="394" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Freiar_T1 to Estacionamento T1" source="Freiar_T1" target="Estacionamento T1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="297" y="89" curvePoint="false"/>
+            <arcpath id="001" x="211" y="102" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Freiar_T2 to Estacionamento T2" source="Freiar_T2" target="Estacionamento T2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="282" y="474" curvePoint="false"/>
+            <arcpath id="001" x="196" y="462" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Freiar T1 to Zona G=1" source="Freiar T1" target="Zona G=1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="496" y="207" curvePoint="false"/>
+            <arcpath id="001" x="525" y="186" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Freiar T2 to Zona G=0" source="Freiar T2" target="Zona G=0">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="496" y="357" curvePoint="false"/>
+            <arcpath id="001" x="524" y="378" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="G=0 to c2" source="G=0" target="c2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="616" y="357" curvePoint="false"/>
+            <arcpath id="001" x="702" y="357" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="G=1 to c1" source="G=1" target="c1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="616" y="207" curvePoint="false"/>
+            <arcpath id="001" x="702" y="207" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Indo Lucerne to a1 ativo" source="Indo Lucerne" target="a1 ativo">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="477" y="87" curvePoint="false"/>
+            <arcpath id="001" x="406" y="87" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Indo Sarnen to a2 ativo" source="Indo Sarnen" target="a2 ativo">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="477" y="477" curvePoint="false"/>
+            <arcpath id="001" x="391" y="477" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Lucerne to m1" source="Lucerne" target="m1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="67" y="188" curvePoint="false"/>
+            <arcpath id="001" x="111" y="237" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="m1 to Comecar andar 2" source="m1" target="Comecar andar 2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="121" y="237" curvePoint="false"/>
+            <arcpath id="001" x="177" y="237" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="m2 to Comecar_andar" source="m2" target="Comecar_andar">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="121" y="327" curvePoint="false"/>
+            <arcpath id="001" x="177" y="327" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P18 to b2 ativo" source="P18" target="b2 ativo">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="341" y="327" curvePoint="false"/>
+            <arcpath id="001" x="366" y="327" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P20 to b1 ativo" source="P20" target="b1 ativo">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="337" y="247" curvePoint="false"/>
+            <arcpath id="001" x="328" y="238" curvePoint="false"/>
+            <arcpath id="002" x="366" y="237" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Partida_Engelberg_T1 to c1 volta" source="Partida_Engelberg_T1" target="c1 volta">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="771" y="87" curvePoint="false"/>
+            <arcpath id="001" x="741" y="53" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Partida_Engelberg_T2 to c2 volta" source="Partida_Engelberg_T2" target="c2 volta">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="786" y="477" curvePoint="false"/>
+            <arcpath id="001" x="755" y="524" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Sarnen to m2" source="Sarnen" target="m2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="67" y="375" curvePoint="false"/>
+            <arcpath id="001" x="111" y="327" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Sincronismo to G=0" source="Sincronismo" target="G=0">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="519" y="290" curvePoint="false"/>
+            <arcpath id="001" x="607" y="352" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Sincronismo to G=1" source="Sincronismo" target="G=1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="519" y="273" curvePoint="false"/>
+            <arcpath id="001" x="606" y="212" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Voltando T1 to b1 volta" source="Voltando T1" target="b1 volta">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="642" y="87" curvePoint="false"/>
+            <arcpath id="001" x="616" y="87" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Voltando T2 to b2 volta" source="Voltando T2" target="b2 volta">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="642" y="477" curvePoint="false"/>
+            <arcpath id="001" x="616" y="477" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Zona G=0 to G=0" source="Zona G=0" target="G=0">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="551" y="382" curvePoint="false"/>
+            <arcpath id="001" x="606" y="362" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Zona G=1 to G=1" source="Zona G=1" target="G=1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="551" y="182" curvePoint="false"/>
+            <arcpath id="001" x="607" y="202" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+    </net>
+</pnml>
