@@ -130,7 +130,7 @@ int main(int argc, char **argv) {
                 trens.Trem1Pos(180, 158);
                 break;
             case 5:
-                trens.Trem1Txt("Sarnen");
+                trens.Trem1Txt("Stans");
                 trens.Trem1Pos(304, 242);
                 sleep(1);
                 trens.Trem1Txt("B1 Ativo");
@@ -141,7 +141,7 @@ int main(int argc, char **argv) {
                 trens.Trem2Pos(180, 326);
                 break;
             case 7:
-                trens.Trem2Txt("Sarnen");
+                trens.Trem2Txt("Stans");
                 trens.Trem2Pos(304, 242);
                 sleep(1);
                 trens.Trem2Txt("B2 Ativo");
